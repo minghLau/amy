@@ -13,7 +13,7 @@ Amy is a C++11 compliant header-only **A**synchronous **My**SQL client library b
 By default, Amy compiles against [vanilla Asio][vanilla-asio]. You may claim this explicitly by defining macro `USE_BOOST_ASIO` to `0`.
 
 - [Asio][vanilla-asio] 1.10.6 or newer
-- [Boost][boost] 1.58 or newer for [Boost.Date_time][boost-date-time], which is used for processing MySQL date and time data types
+- [Boost][boost] 1.66.0 for [Boost.Date_time][boost-date-time], which is used for processing MySQL date and time data types
 - [MySQL C client library][mysql-c-connector] 5.6 or newer
 
 ### Using Boost.Asio
